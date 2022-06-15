@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Summer Helados</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <main id="header">
+            <header>
+                <nav class="navegador">
+                    <img class="logo" src="../img/summer-logo.png" alt="summer-logo">
+                    <ul class="menu-principal">
+                        <li>
+                            <a class="menu-principal__link menu-principal__link__activo" href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="menu-principal__link" href="./sobrenosotros.html">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="menu-principal__link" href="./productos.html">Productos</a>
+                            </li>
+                            <li>
+                                <a class="menu-principal__link" href="./sucursales.html">Sucursales</a>
+                            </li>
+                            <li>
+                                <a class="menu-principal__link link-active" href="">Contacto</a>
+                            </li>
+                        </ul>
+                </nav>
+                <section class="contacto">
+                    <!-- <img src="../img/sobrenosotros-header.jpg" alt=""> -->
+                    <h2 class="titulo-productos">Contactanos</h2>
+                </section>
+            </header>
+        </main>
+            <div class="formulario">
+                <main id="formulario-de-contacto">
+                    <form action="mensajeenviado.html" method="post" enctype=""> <!--GET queda expuesto en la url-->
+                        <label for="mensaje">Mensaje</label>
+                            <input type="text" name="mensaje" placeholder="Escribe tu mensaje Aquí">
+                        <br>
+                        <label for="password">Password</label>
+                            <input type="password" name="password" placeholder="Contraseña">
+                        <br>
+                        <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="Email">
+                        <br>
+                        <label for="Telefono">Telefono</label>
+                            <input type="tel" name="Telefono" placeholder="Teléfono">
+                        <br>
+                            <label for="fechadenacimiento">Fecha de Nacimiento</label>
+                        <input type="date" name="fechadenacimiento">
+                        <br>
+                            <button type="submit">enviar</button>
+                            <button type="reset">borrar</button>
+                    </form>
+                </main>
+            </div>
+        <main id="footer">
+                <footer>
+                    <ul>
+                        <li>Seguinos en Facebook o Instagram</li>
+                        <li>Trabaja con nosotros</li>
+                        <li>Contactanos</li>
+                    </ul>
+                </footer>
+            </main>
+    </body>
+</html>
