@@ -13,6 +13,7 @@
 
  body{
     background-color:  #E0CFB9;
+    font: poppins;
  }
 
 ol, ul {
@@ -95,6 +96,16 @@ img {
 
 body {
     background-color: #EFF1F3;
+    font-family: 'poppins';
+}
+
+h2 {
+    font-weight:800;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 2rem;
 }
 
 a:hover {
@@ -174,6 +185,7 @@ a:active {
     gap: 1rem;
     /* justify-content: center; */
     margin-top: 100px;
+    justify-content: center;
 }
 
 .card {
@@ -182,7 +194,7 @@ a:active {
     /* gap: 1rem; */
     flex-basis: 30%;
     align-items: center;
-    padding: 0;
+    padding: 50px;
     margin-bottom: 100px;
 
 }
@@ -399,7 +411,7 @@ a:active {
                 .logo {
                     width: 50%;
                     }   
-                }
+                
                 .contenido-principal {
                     display: flex;
                     background-color: #E3655C;
@@ -413,7 +425,7 @@ a:active {
                 }
                 .contenido-principal h2 {
                     position: relative;
-                    top: 50px; 
+                    top: 68px; 
                     left: 100px;
                     font-size: 43px;
                     line-height: 50px;
@@ -449,6 +461,12 @@ a:active {
                     max-width: 100%;
                     margin-top: 50px;
                 }
+                .row .col-xs-6
+                {   display: grid;
+                    grid-template-columns: 1fr;   
+                }
+                             
+                }                   
     
 @media screen and (max-width: 1024x) {
     body {
@@ -470,4 +488,37 @@ a:active {
     body {
         flex-direction: column;
     }
+}
+
+/* Correcciones Boostrap*/
+
+.carrousel-posicion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.carousel {
+    width: 600px;
+} 
+
+.carrousel-posicion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.carousel {
+    width: 400px;
+} 
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
 }
