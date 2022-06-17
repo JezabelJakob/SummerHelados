@@ -476,7 +476,7 @@ a:active {
                 .container {
                     display: flex;
                     flex-direction: column;
-                    height: 2000px;
+                    height: 600px;
                     width: 100%;
                     margin: 0;
                     margin-top: 50px;
@@ -490,6 +490,13 @@ a:active {
                 .col {
                     width: 100%;
                     padding: 10px;
+                }
+                #footer {
+                    height: 200px;
+                }
+                #footer ul {
+                    display: grid;
+                    margin: 0;
                 }
                 }
                 
@@ -530,7 +537,7 @@ a:active {
     width: 400px;
 } 
 
-.container {
+/* .container {
     height: 200px;
     margin: 100px;
     display:flex;
@@ -542,14 +549,18 @@ a:active {
     width: 500px;
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 .col p {
     font-size: small;
-}
+} 
 
 .col h3 {
     text-decoration: dashed, #E3655C;
 }
 .row {
     padding: 3rem;
+} 
+
+.small {
+    font-size: 15px;
 }
