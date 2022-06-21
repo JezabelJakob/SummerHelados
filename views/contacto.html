@@ -41,27 +41,31 @@
                 </section>
             </header>
         </main>
-            <div class="formulario">
-                <main id="formulario-de-contacto">
-                    <form action="mensajeenviado.html" method="post" enctype=""> <!--GET queda expuesto en la url-->
-                        <label for="mensaje">Mensaje</label>
-                            <input type="text" name="mensaje" placeholder="Escribe tu mensaje Aquí">
-                        <br>
-                        <label for="password">Password</label>
-                            <input type="password" name="password" placeholder="Contraseña">
-                        <br>
-                        <label for="email">Email</label>
-                            <input type="email" name="email" placeholder="Email">
-                        <br>
-                        <label for="Telefono">Telefono</label>
-                            <input type="tel" name="Telefono" placeholder="Teléfono">
-                        <br>
-                            <label for="fechadenacimiento">Fecha de Nacimiento</label>
-                        <input type="date" name="fechadenacimiento">
-                        <br>
-                            <button type="submit">enviar</button>
-                            <button type="reset">borrar</button>
-                    </form>
+        <div class="formilario-caja">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Apellido</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Teléfono</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Tu mensaje</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
                 </main>
             </div>
         <main id="footer">
