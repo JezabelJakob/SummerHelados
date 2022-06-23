@@ -618,12 +618,8 @@ a:active {
 
 .card p {
     text-align: left;
-<<<<<<< HEAD
 }
 
 .card-body {
-    display: ;
     justify-content: flex-start;
-=======
->>>>>>> boostrap
 }
