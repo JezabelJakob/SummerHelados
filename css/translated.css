@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/*MISC*/
+/* Colors */
+/* Normalize */
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  /* etiqueta raíz */
+  font-size: 80%;
+  font-family: 'poppins'; }
+
+body {
+  background-color: #E0CFB9;
+  font: poppins; }
+
+ol, ul {
+  list-style-type: none;
+  text-align: center; }
+
+li {
+  display: inline-block;
+  padding: 50px; }
+
+a {
+  text-decoration: none;
+  color: #191919;
+  padding: 10px; }
+
+img {
+  width: 100%; }
+
+@media screen and (max-width: 500px) {
+  body {
+    flex-direction: column; }
+  .logo {
+    width: 50%; }
+  .contenido-principal {
+    display: flex;
+    background-color: #E3655C;
+    background-image: none;
+    margin: 0;
+    height: 300px; }
+  .contenido-principal div {
+    width: 100%;
+    height: 300px; }
+  .contenido-principal h2 {
+    position: relative;
+    top: 68px;
+    left: 100px;
+    font-size: 43px;
+    line-height: 50px;
+    width: 50%; }
+  .grid-nuestros-creadores {
+    grid-template-columns: 1fr; }
+  .titulos-seccion h4 {
+    font-size: 30px; }
+  .menu-principal {
+    display: flex;
+    flex-direction: column; }
+  .sobre-nosotros, .contacto, .sucursales, .productos {
+    background-color: #E3655C;
+    height: 260px;
+    margin-top: 50px; }
+  .titulo-nosotros, .titulo-productos, .titulo-sucursales {
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+    align-items: flex-start; }
+  .nosotros-parrafo {
+    width: 100%; }
+  .subtitulo-nosotros-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding-top: 20px; }
+  .nosotros-img {
+    max-width: 100%;
+    margin-top: 50px; }
+  .row .col-xs-6 {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px; }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center; }
+  .col {
+    width: 100%;
+    padding: 10px; }
+  #footer {
+    height: 350px; }
+  #footer ul {
+    display: grid;
+    margin: 0; }
+  .contenedor-mapa {
+    width: 400px;
+    height: 700px;
+    padding: 0;
+    margin-top: 50px; }
+  .sucursal {
+    margin-top: 20px; }
+  .sucursal p {
+    font-size: 16px; }
+  .mapa-sucursales__iframe {
+    width: 80%; }
+  .subtitulo-productos {
+    height: 1000px;
+    margin-top: 0; }
+  .subtitulo-productos {
+    height: 1500px; } }
+
+@media screen and (max-width: 1024x) {
+  body {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1200px) {
+  body {
+    flex-direction: column; } }
+
+/*PARTIALS*/
+#header {
+  margin-top: 30px; }
+  #header .logo {
+    margin: 10px auto;
+    display: block;
+    width: 20%;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+    animation-name: animacionlogo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+  #header .menu-principal {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 50px;
+    display: block;
+    padding: 10px; }
+  #header .menu-principal__link__active {
+    background-color: #E0CFB9;
+    padding: 10px; }
+
+#footer {
+  background: linear-gradient(45deg, #E3655C, #91322b); }
+
+/*VIEWS*/
+/*SCSS Index*/
+.contenido-principal {
+  display: grid;
+  background-color: #ece7e3;
+  /* width: 100%; */
+  background-image: url("../img/heladitos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 324px;
+  height: 600px; }
+
+.titulos-seccion {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 200px;
+  text-decoration: underline #E3655C; }
+
+/*Sección principal Index*/
+.grid-nuestros-creadores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 100px;
+  justify-content: center; }
+  .grid-nuestros-creadores .row {
+    padding: 3rem; }
+  .grid-nuestros-creadores .card {
+    margin: 10%; }
+  .grid-nuestros-creadores .img-card {
+    max-width: 300px; }
+
+.carrousel-posicion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .carrousel-posicion .carousel {
+    width: 400px; }
+
+/*SCSS Contacto*/
+.contacto {
+  background: url("../img/contactanos.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -1000px;
+  margin-top: 50px; }
+  .contacto .titulo-productos {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    align-items: flex-start; }
+
+.formulario-caja {
+  width: 80%;
+  margin: 50px; }
+
+/*SCSS Nosotros*/
+.sobre-nosotros {
+  background: url("../img/sobrenosotros-header.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -550px;
+  margin-top: 50px; }
+  .sobre-nosotros .titulo-nosotros {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    align-items: flex-start; }
+
+.subtitulo-nosotros-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  margin-left: 10rem;
+  padding-top: 200px;
+  margin-bottom: 100px; }
+  .subtitulo-nosotros-grid .nosotros-parrafo {
+    width: 45rem; }
+  .subtitulo-nosotros-grid .nosotros-parrafo h2 {
+    font-size: 30px;
+    text-decoration: underline #E3655C;
+    margin-bottom: 50px; }
+  .subtitulo-nosotros-grid .nosotros-img {
+    width: 50rem; }
+  .subtitulo-nosotros-grid .small {
+    font-size: 15px; }
+
+.container .col p {
+  font-size: small; }
+
+.container .col h3 {
+  text-decoration: dashed, #E3655C; }
+
+/*SCSS Productos*/
+.productos {
+  background: url("../img/productos.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -800px;
+  margin-top: 50px; }
+
+/*SCSS Sucursales*/
+.sucursales {
+  background: url("../img/sucursales.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  margin-top: 50px; }
+  .sucursales .titulo-sucursales {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    align-items: flex-start; }
+
+.contenedor-mapa {
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+  padding-left: 150px;
+  padding-top: 100px; }
+  .contenedor-mapa .mapa-sucursales {
+    display: inline;
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 1000px;
+    width: 1000px;
+    align-items: center; }
+
+.sucursal {
+  display: inline-block;
+  margin-left: 50px; }

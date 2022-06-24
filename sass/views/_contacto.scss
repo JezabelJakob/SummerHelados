@@ -1,0 +1,25 @@
+/*SCSS Contacto*/
+
+.contacto {
+    background: url("../img/contactanos.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -1000px;
+    margin-top: 50px;
+
+    .titulo-productos {
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        padding: 150px;
+        align-items: flex-start;
+    }
+}
+
+.formulario-caja {
+    width: 80%;
+    margin: 50px;
+
+
+}

@@ -1,0 +1,32 @@
+#header {
+
+    margin-top: 30px;
+
+    .logo {
+        margin:10px auto;
+        display:block;
+        width: 20%;
+        margin-bottom: 50px;
+        justify-content: flex-start;
+        animation-name: animacionlogo;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+
+        .menu-principal {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 18px;
+            color: #191919;
+            margin-bottom: 50px;
+            display: block;
+            padding: 10px;
+        }
+
+        .menu-principal__link__active {
+            background-color: #E0CFB9;
+            padding: 10px;
+        }
+}

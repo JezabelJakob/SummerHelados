@@ -1,0 +1,40 @@
+/*SCSS Sucursales*/
+
+.sucursales {
+    background: url("../img/sucursales.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    margin-top: 50px;
+
+    .titulo-sucursales {
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        padding: 150px;
+        align-items: flex-start;                
+    }
+}
+
+.contenedor-mapa {
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+    padding-left: 150px;
+    padding-top: 100px;
+
+    .mapa-sucursales {
+        display: inline;
+        margin-top: 60px;
+        margin-left: 50px;
+        height: 1000px;
+        width: 1000px;
+        align-items: center;
+}
+}
+
+.sucursal {
+    display: inline-block;
+    margin-left: 50px;
+}

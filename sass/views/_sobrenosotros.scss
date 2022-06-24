@@ -1,0 +1,58 @@
+/*SCSS Nosotros*/
+
+.sobre-nosotros {
+    background: url("../img/sobrenosotros-header.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -550px;
+    margin-top: 50px;
+
+    .titulo-nosotros {
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        padding: 150px;
+        align-items: flex-start;
+    }
+}
+
+.subtitulo-nosotros-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-left: 10rem;
+    padding-top: 200px;
+    margin-bottom: 100px;
+
+    .nosotros-parrafo {
+        width: 45rem;
+    }
+    
+    .nosotros-parrafo h2 {
+        font-size: 30px;
+        text-decoration: underline #E3655C;
+        margin-bottom: 50px;
+    }
+    
+    .nosotros-img {
+        width: 50rem;
+    }
+
+    .small {
+        font-size: 15px;                
+    }
+}
+
+.container {
+    .col p {
+        font-size: small;
+    }
+
+    .col h3 {
+        text-decoration: dashed, #E3655C;
+    }
+}

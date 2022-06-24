@@ -1,0 +1,56 @@
+/*SCSS Index*/
+
+.contenido-principal {
+    display: grid;
+    background-color: #ece7e3;
+    /* width: 100%; */
+    background-image: url('../img/heladitos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 324px;
+    height: 600px;
+}
+
+.titulos-seccion{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 200px;
+    text-decoration: underline #E3655C;
+}
+
+/*Sección principal Index*/
+
+.grid-nuestros-creadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 100px;
+    justify-content: center;
+    
+    .row {
+        padding: 3rem;
+    } 
+    
+    .card {
+        margin: 10%;
+    }
+
+    .img-card {
+        max-width: 300px;
+    }
+}
+
+.carrousel-posicion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+    .carousel {
+        width: 400px;
+    }
+}
+
+
+
+

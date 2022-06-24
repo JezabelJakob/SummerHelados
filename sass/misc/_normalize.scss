@@ -1,0 +1,37 @@
+/* Normalize */
+
+* {
+    Margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+ html { /* etiqueta raíz */
+    font-size: 80%;
+    font-family: 'poppins';
+ }
+
+ body{
+    background-color:  #E0CFB9;
+    font: poppins;
+ }
+
+ol, ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
