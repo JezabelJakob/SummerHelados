@@ -11,8 +11,9 @@
     font-family: 'poppins';
  }
 
+
  body{
-    background-color:  #E0CFB9;
+    background-color:  #ffffff;
     font: poppins;
  }
 
@@ -35,3 +36,20 @@ a {
 img {
     width: 100%;
 }
+
+h4 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+a:active {
+    background-color: #E0CFB9;
+    padding: 10px;
+}
+

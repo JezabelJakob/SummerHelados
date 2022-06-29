@@ -1,5 +1,16 @@
 /*SCSS Index*/
 
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+a:active {
+    background-color: #E0CFB9;
+    padding: 10px;
+}
+
 .contenido-principal {
     display: grid;
     background-color: #ece7e3;
