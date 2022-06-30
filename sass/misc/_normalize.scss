@@ -14,7 +14,7 @@
 
  body{
     background-color:  #ffffff;
-    font: poppins;
+    font: 'poppins';
  }
 
 ol, ul {
@@ -37,6 +37,10 @@ img {
     width: 100%;
 }
 
+h2 {
+    font-weight:800;
+}
+
 h4 {
     font-weight: 800;
     font-size: 2rem;
@@ -45,7 +49,7 @@ h4 {
 a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: var(--primary);
+    color: #E0CFB9;
 }
 
 a:active {

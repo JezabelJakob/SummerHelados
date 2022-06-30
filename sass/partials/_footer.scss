@@ -1,3 +1,15 @@
 #footer {
     background: linear-gradient(45deg, #E3655C, #91322b);
 }
+
+$botones: (
+    Facebook: 'Facebook',
+    instagram: 'instagram',
+    twitter: 'twitter',
+    trabaja: 'trabaja',
+    contacto: 'contacto',
+);
+
+@each $key, $val in $botones {
+    background-color: aqua;
+}
