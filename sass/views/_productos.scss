@@ -1,12 +1,13 @@
 /*SCSS Productos*/
 
 .productos {
+    @extend .formato-header;
     background: url("../img/productos.jpg");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // height: 400px;
+    // background-size: cover;
+    // background-repeat: no-repeat;
     background-position: 0 -800px;
-    margin-top: 50px;    
+    // margin-top: 50px;    
 
     .titulo-productos {
         @include tipografía-titulos;

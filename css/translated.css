@@ -48,6 +48,12 @@ a:active {
   background-color: #E0CFB9;
   padding: 10px; }
 
+.formato-header, .contacto, .sobre-nosotros, .productos, .sucursales {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px; }
+
 /*PARTIALS*/
 #header {
   margin-top: 30px; }
@@ -118,6 +124,15 @@ a:active {
 #footer {
   background: linear-gradient(45deg, #E3655C, #91322b); }
 
+.twitter {
+  background-color: #51aff8; }
+
+.facebook {
+  background-color: #2956a3; }
+
+.instagram {
+  background-color: #ce1312; }
+
 /*VIEWS*/
 /*SCSS Index*/
 .titulos-seccion {
@@ -168,11 +183,8 @@ a:active {
 /*SCSS Contacto*/
 .contacto {
   background: url("../img/contactanos.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: 0 -1000px;
-  margin-top: 50px; }
+  /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/ }
   .contacto .titulo-productos {
     font-size: 60px;
     text-align: center;
@@ -187,11 +199,7 @@ a:active {
 /*SCSS Nosotros*/
 .sobre-nosotros {
   background: url("../img/sobrenosotros-header.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -550px;
-  margin-top: 50px; }
+  background-position: 0 -550px; }
   .sobre-nosotros .titulo-nosotros {
     font-size: 60px;
     text-align: center;
@@ -229,11 +237,7 @@ a:active {
 /*SCSS Productos*/
 .productos {
   background: url("../img/productos.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -800px;
-  margin-top: 50px; }
+  background-position: 0 -800px; }
   .productos .titulo-productos {
     font-size: 60px;
     text-align: center;
@@ -249,11 +253,7 @@ a:active {
 /*SCSS Sucursales*/
 .sucursales {
   background: url("../img/sucursales.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -300px;
-  margin-top: 50px; }
+  background-position: 0 -300px; }
   .sucursales .titulo-sucursales {
     font-size: 60px;
     text-align: center;

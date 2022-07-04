@@ -1,12 +1,13 @@
 /*SCSS Nosotros*/
 
 .sobre-nosotros {
+    @extend .formato-header;
     background: url("../img/sobrenosotros-header.jpg");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // height: 400px;
+    // background-size: cover;
+    // background-repeat: no-repeat;
     background-position: 0 -550px;
-    margin-top: 50px;
+    // margin-top: 50px;
 
     .titulo-nosotros {
         @include tipografía-titulos;

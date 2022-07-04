@@ -1,12 +1,11 @@
 /*SCSS Contacto*/
 
 .contacto {
+    @extend .formato-header;
     background: url("../img/contactanos.jpg");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: 0 -1000px;
-    margin-top: 50px;
+
+    /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/
 
     .titulo-productos {
         @include tipografía-titulos;

@@ -2,3 +2,15 @@
     background: linear-gradient(45deg, #E3655C, #91322b);
 }
 
+.twitter {
+    background-color: map-get($redes, twitter);
+}
+
+.facebook {
+    background-color: map-get($redes, facebook);
+}
+
+.instagram {
+    background-color: map-get($redes, instagram);
+}
+
