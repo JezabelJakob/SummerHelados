@@ -57,34 +57,35 @@
             padding: 10px;
         } 
         
-        .contenido-principal {
-            display: grid;
-            background-color: #ece7e3;
-            background-image: url('../img/heladitos.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 324px;
-            height: 600px;
-        }
-        
-            .contenido-principal h2 {
-                position: relative;
-                top: 140px; 
-                left: 200px;
-                font-size: 86px;
-                line-height: 100px;
-                color:#191919;
-                width: 50%;
-        }
 
         a:hover {
             font-weight: bold;
             text-decoration: underline;
-            color: var(--primary);
+            color: #E3655C;
         }
         
         a:active {
             background-color: #E0CFB9;
             padding: 10px;
         }
+}
+
+.contenido-principal {
+    display: grid;
+    background-color: #ece7e3;
+    background-image: url('../img/heladitos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 324px;
+    height: 600px;
+}
+
+    .contenido-principal h2 {
+        position: relative;
+        top: 140px; 
+        left: 200px;
+        font-size: 86px;
+        line-height: 100px;
+        color:#191919;
+        width: 40%;
 }

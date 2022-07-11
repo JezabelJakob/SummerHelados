@@ -1,7 +1,7 @@
 /* Normalize */
 
 * {
-    Margin:0;
+    margin:0;
     padding:0;
     box-sizing: border-box;
  }
@@ -14,7 +14,7 @@
 
  body{
     background-color:  #ffffff;
-    font: 'poppins';
+    font-family: 'poppins';
  }
 
 ol, ul {
@@ -57,3 +57,6 @@ a:active {
     padding: 10px;
 }
 
+p {
+    margin-top: 20px;
+}

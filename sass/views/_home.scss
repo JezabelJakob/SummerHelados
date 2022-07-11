@@ -1,26 +1,5 @@
 /*SCSS Index*/
 
-
-// .contenido-principal {
-//     display: grid;
-//     background-color: #ece7e3;
-//     background-image: url('../img/heladitos.jpg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: 324px;
-//     height: 600px;
-
-//     .contenido-principal h2 {
-//         position: relative;
-//         top: 140px; 
-//         left: 200px;
-//         font-size: 86px;
-//         line-height: 100px;
-//         color:#191919;
-//         width: 50%;
-//     }
-// }
-
 .titulos-seccion {
     display: flex;
     justify-content: center;
@@ -32,6 +11,7 @@
 /*Sección principal Index*/
 
 .grid-nuestros-creadores {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -54,15 +34,13 @@
         margin-top: 50px;
         }
     
-    .card p {
-        font-size: 16px;
-        max-width: 300px;
-        text-align: center;
-        margin-top: 30px;
-        }
+    .card-text {
+        margin-top: 50px;
+    }
     
     .img-card {
         max-width: 300px;
+        max-height: 300px;
         margin-bottom: 50px;
     }
     

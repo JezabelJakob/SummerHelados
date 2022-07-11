@@ -19,32 +19,45 @@
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 60px;
     grid-row-gap: 0px;
     margin-left: 10rem;
     padding-top: 200px;
     margin-bottom: 100px;
 
-    .nosotros-parrafo {
-        width: 45rem;
-    }
     
     .nosotros-parrafo h2 {
-        font-size: 30px;
+        font-size: 25px;
         text-decoration: underline #E3655C;
         margin-bottom: 50px;
     }
     
     .nosotros-img {
-        width: 50rem;
+        width: 40rem;
     }
 
     .small {
         font-size: 15px;                
     }
+    
+}
+
+.linea {
+    background-color: black;
+    height: 1px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
+    max-width: 100%;
+
+    .col {
+        width: 100px;
+        padding: 50px;
+    }
+
     .col p {
         font-size: small;
     }

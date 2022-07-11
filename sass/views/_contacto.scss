@@ -9,6 +9,7 @@
 
     .titulo-productos {
         @include tipografía-titulos;
+        padding: 0px;
             // font-size: 60px;
             // text-align: center;
             // color: white;
@@ -20,6 +21,4 @@
 .formulario-caja {
     width: 80%;
     margin: 50px;
-
-
 }
