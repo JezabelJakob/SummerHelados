@@ -3,7 +3,8 @@
 .contacto {
     @extend .formato-header;
     background: url("../img/contactanos.jpg");
-    background-position: 0 -1000px;
+    background-size: 100%;
+    background-position: 0 -1200px;
     margin: 0;
 
     /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/
