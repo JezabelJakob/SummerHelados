@@ -4,17 +4,17 @@
     @extend .formato-header;
     background: url("../img/contactanos.jpg");
     background-position: 0 -1000px;
+    margin: 0;
 
     /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/
 
-    .titulo-productos {
+    .titulo {
         @include tipografía-titulos;
         padding: 0px;
-            // font-size: 60px;
-            // text-align: center;
-            // color: white;
-            // padding: 150px;
-            // align-items: flex-start;
+    }
+
+    .titulo h2 {
+        padding-top: 200px;
     }
 }
 

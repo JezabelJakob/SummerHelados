@@ -42,7 +42,7 @@ h4 {
 a:hover {
   font-weight: bold;
   text-decoration: underline;
-  color: #E0CFB9; }
+  color: #E3655C; }
 
 a:active {
   background-color: #E0CFB9;
@@ -95,7 +95,7 @@ p {
     font-size: 18px;
     color: #191919;
     margin-bottom: 50px;
-    display: block;
+    display: flex;
     padding: 10px; }
   #header .menu-principal__link__active {
     background-color: #E0CFB9;
@@ -192,14 +192,17 @@ p {
 .contacto {
   background: url("../img/contactanos.jpg");
   background-position: 0 -1000px;
+  margin: 0;
   /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/ }
-  .contacto .titulo-productos {
+  .contacto .titulo {
     font-size: 60px;
     text-align: center;
     color: white;
     padding: 150px;
     align-items: flex-start;
     padding: 0px; }
+  .contacto .titulo h2 {
+    padding-top: 200px; }
 
 .formulario-caja {
   width: 80%;
@@ -209,7 +212,7 @@ p {
 .sobre-nosotros {
   background: url("../img/sobrenosotros-header.jpg");
   background-position: 0 -550px; }
-  .sobre-nosotros .titulo-nosotros {
+  .sobre-nosotros .titulo {
     font-size: 60px;
     text-align: center;
     color: white;
@@ -243,10 +246,7 @@ p {
   margin-right: auto; }
 
 .container {
-  max-width: 100%; }
-  .container .col {
-    width: 100px;
-    padding: 50px; }
+  max-width: 95%; }
   .container .col p {
     font-size: small; }
   .container .col h3 {
@@ -256,7 +256,7 @@ p {
 .productos {
   background: url("../img/productos.jpg");
   background-position: 0 -800px; }
-  .productos .titulo-productos {
+  .productos .titulo {
     font-size: 60px;
     text-align: center;
     color: white;
@@ -282,7 +282,7 @@ p {
 .sucursales {
   background: url("../img/sucursales.jpg");
   background-position: 0 -300px; }
-  .sucursales .titulo-sucursales {
+  .sucursales .titulo {
     font-size: 60px;
     text-align: center;
     color: white;
@@ -316,18 +316,20 @@ p {
   body {
     flex-direction: column; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   body {
     width: 100%;
     flex-direction: column; }
   .logo {
     width: 50%; }
-  .contenido-principal {
+  .contenido-principal .formato-header, .contenido-principal .contacto, .contenido-principal .sobre-nosotros, .contenido-principal .productos, .contenido-principal .sucursales {
     display: flex;
     background-color: #E3655C;
     background-image: none;
     margin: 0;
     height: 300px; }
+  .titulo {
+    padding: 0; }
   .contenido-principal div {
     width: 100%;
     height: 300px; }
@@ -341,20 +343,9 @@ p {
   .grid-nuestros-creadores {
     grid-template-columns: 1fr;
     margin: 0; }
-  .titulos-seccion h4 {
-    font-size: 30px; }
   .menu-principal {
     display: flex;
     flex-direction: column; }
-  .sobre-nosotros, .contacto, .sucursales, .productos {
-    background-color: #E3655C;
-    height: 260px;
-    margin-top: 50px; }
-  .titulo-nosotros, .titulo-productos, .titulo-sucursales {
-    font-size: 50px;
-    color: white;
-    padding: 50px;
-    align-items: flex-start; }
   .nosotros-parrafo {
     width: 100%; }
   .subtitulo-nosotros-grid {
@@ -383,12 +374,16 @@ p {
   .col {
     width: 100%;
     padding: 10px; }
+  .card-productos {
+    width: 80%; }
   #footer {
+    display: flex;
     width: 100%;
-    height: 600px; }
+    height: auto;
+    flex-direction: column; }
   #footer ul {
-    display: grid;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
     padding: 0; }
   .contenedor-mapa {
     width: 400px;

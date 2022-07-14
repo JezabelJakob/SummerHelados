@@ -9,7 +9,7 @@
     background-position: 0 -550px;
     // margin-top: 50px;
 
-    .titulo-nosotros {
+    .titulo {
         @include tipografía-titulos;
     }
 }
@@ -51,12 +51,12 @@
 }
 
 .container {
-    max-width: 100%;
+    max-width: 95%;
 
-    .col {
-        width: 100px;
-        padding: 50px;
-    }
+    // .col {
+    //     // width: 100px;
+    //     // padding: 50px;
+    // }
 
     .col p {
         font-size: small;

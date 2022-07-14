@@ -3,13 +3,9 @@
 .sucursales {
     @extend .formato-header;
     background: url("../img/sucursales.jpg");
-    // height: 400px;
-    // background-size: cover;
-    // background-repeat: no-repeat;
     background-position: 0 -300px;
-    // margin-top: 50px;
 
-    .titulo-sucursales {
+    .titulo {
         @include tipografía-titulos;               
     }
 }
