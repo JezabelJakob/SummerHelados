@@ -21,10 +21,6 @@
    a:active {
     background-color: #E0CFB9;
     padding: 10px;
-    }
-
-   .logo {
-       width: 50%;
     }   
    
     .formato-header {
@@ -37,8 +33,16 @@
        justify-content: center;
    }
 
-   .titulo {
-        padding: 0;
+   #header {
+        .titulo {
+            padding: 0;
+            font-size: 40px;
+   }
+
+        .logo {
+            width: 70%;
+ }
+
    }
    .contenido-principal div {
         width: 100%;
@@ -50,10 +54,11 @@
     .contenido-principal h2 {
         position: relative;
         top: 130px; 
-        left: 150px;
-        font-size: 60px;
+        left: 75px;
+        font-size: 40px;
         line-height: 80px;
         text-align: center;
+        width: 0;
 }
    .grid-nuestros-creadores {
         grid-template-columns: 1fr;
@@ -73,10 +78,14 @@
        flex-direction: column;
        margin: 50px;
        padding-top: 20px;
+       margin-bottom: 50px;
    }
    .nosotros-img {
        max-width: 100%;
        margin-top: 50px;
+   }
+   .columnas {
+    margin-bottom: 300px;
    }
    .row .col-xs-6
    {   display: grid;
@@ -88,13 +97,15 @@
        height: 600px;
        width: 100%;
        margin: 0;
-       margin-top: 50px;
+    //    margin-top: 50px;
    }
    .row {
        display: grid;
        grid-template-columns: 1fr;
        width: 100%;
        justify-content: center;
+       margin:auto;
+       padding: 15 0 0 0;
    }
    .col {
        width: 100%;
@@ -115,7 +126,7 @@
        padding: 0;
    }
    .contenedor-mapa {
-       width: 400px;
+       width: 320px;
        height: 700px;
        padding: 0;
        margin-top: 50px;
