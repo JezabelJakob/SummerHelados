@@ -4,15 +4,12 @@
     @extend .formato-header;
     background: url("../img/sobrenosotros-header.jpg");
     background-size: 100%;
-    // height: 400px;
-    // background-size: cover;
-    // background-repeat: no-repeat;
     background-position: 0 -400px;
-    // margin-top: 50px;
 
-    .titulo {
-        @include tipografía-titulos;
-    }
+
+    // .titulo {
+    //     @include tipografía-titulos;
+    // }
 }
 
 .subtitulo-nosotros-grid {

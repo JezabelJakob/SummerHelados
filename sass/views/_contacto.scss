@@ -8,10 +8,7 @@
 
     /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/
 
-    .titulo {
-        @include tipografía-titulos;
-        padding: 0px;
-    }
+
 
     .titulo h2 {
         padding-top: 200px;

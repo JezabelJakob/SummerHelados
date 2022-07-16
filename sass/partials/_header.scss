@@ -41,6 +41,11 @@
             }
         }
 
+        .titulo {
+            @include tipografía-titulos;
+            // padding: 0px;
+        }
+
     .menu-principal {
             width: fit-content;
             margin-left: auto;
@@ -89,3 +94,4 @@
         color:#191919;
         width: 40%;
 }
+

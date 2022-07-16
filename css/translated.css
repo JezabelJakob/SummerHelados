@@ -88,6 +88,12 @@ p {
   45% {
     animation-timing-function: ease-out;
     transform: scale(1); } }
+  #header .titulo {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    align-items: center; }
   #header .menu-principal {
     width: fit-content;
     margin-left: auto;
@@ -194,13 +200,6 @@ p {
   background-size: 100%;
   background-position: 0 -1200px;
   /*Acá me cambio el tamaño de la imagen y la posición en la q estaba*/ }
-  .contacto .titulo {
-    font-size: 60px;
-    text-align: center;
-    color: white;
-    padding: 150px;
-    align-items: flex-start;
-    padding: 0px; }
   .contacto .titulo h2 {
     padding-top: 200px; }
 
@@ -213,12 +212,6 @@ p {
   background: url("../img/sobrenosotros-header.jpg");
   background-size: 100%;
   background-position: 0 -400px; }
-  .sobre-nosotros .titulo {
-    font-size: 60px;
-    text-align: center;
-    color: white;
-    padding: 150px;
-    align-items: flex-start; }
 
 .subtitulo-nosotros-grid {
   display: grid;
@@ -258,12 +251,6 @@ p {
   background: url("../img/productos.jpg");
   background-size: 100%;
   background-position: 0 -800px; }
-  .productos .titulo {
-    font-size: 60px;
-    text-align: center;
-    color: white;
-    padding: 150px;
-    align-items: flex-start; }
 
 .card-productos {
   width: 30%;
@@ -284,12 +271,6 @@ p {
 .sucursales {
   background: url("../img/sucursales.jpg");
   background-position: 0 -300px; }
-  .sucursales .titulo {
-    font-size: 60px;
-    text-align: center;
-    color: white;
-    padding: 150px;
-    align-items: flex-start; }
 
 .contenedor-mapa {
   height: 600px;
