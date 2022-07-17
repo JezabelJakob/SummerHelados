@@ -51,6 +51,9 @@ a:active {
 p {
   margin-top: 20px; }
 
+.links-footer a:hover {
+  color: aliceblue; }
+
 .formato-header, .contacto, .sobre-nosotros, .productos, .sucursales {
   height: 400px;
   background-size: cover;
@@ -138,6 +141,8 @@ p {
   #footer li {
     padding: 10px;
     margin-top: 30px; }
+  #footer a:hover {
+    color: aliceblue; }
 
 .twitter {
   background-color: #51aff8; }
